@@ -37,10 +37,10 @@ PRODUCT_PACKAGES += \
 
 # Audio
 PRODUCT_PACKAGES += \
-    android.hardware.audio@4.0.vendor \
-    android.hardware.audio.effect@4.0-impl \
+    android.hardware.audio@6.0.vendor \
+    android.hardware.audio.effect@6.0-impl \
     android.hardware.audio@2.0-service \
-    android.hardware.audio@4.0-impl \
+    android.hardware.audio@6.0-impl \
     android.hardware.bluetooth.audio-impl \
     android.hardware.soundtrigger@2.0-impl \
     audio.bluetooth.default \
@@ -432,9 +432,6 @@ PRODUCT_PACKAGES += \
 # Vibrator
 PRODUCT_PACKAGES += \
     android.hardware.vibrator@1.0-service.exynos9610
-
-# VINTF
-PRODUCT_OTA_ENFORCE_VINTF_KERNEL_REQUIREMENTS := true
 
 # VNDK
 PRODUCT_PACKAGES += \
