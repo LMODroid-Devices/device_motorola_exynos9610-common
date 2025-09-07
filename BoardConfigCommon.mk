@@ -116,7 +116,7 @@ TARGET_KERNEL_SOURCE := kernel/motorola/exynos9610
 DEVICE_MANIFEST_FILE := $(COMMON_PATH)/manifest.xml
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
     $(COMMON_PATH)/framework_compatibility_matrix.xml \
-    vendor/lineage/config/device_framework_matrix.xml
+    vendor/lmodroid/config/device_framework_matrix.xml
 
 ## Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 67108864
